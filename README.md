@@ -2,6 +2,25 @@
 
 这是一个面向实习作品集的小型 RAG 工程项目。它强调可解释、可测试和可复现，而不是简单调用聊天接口。系统采用“关键词检索 + 本地语义检索 + DeepSeek 受约束生成”的混合架构。
 
+## 项目展示
+
+### 智能问答工作台
+
+![GeoRAG 智能问答工作台](docs/showcase/chat-workspace.png)
+
+首页集中展示知识库状态、检索与生成链路，并提供智能问答、跨资料归纳、分析建议和事实查找能力。
+
+| 资料库管理 | 效果评测 |
+| --- | --- |
+| ![资料库管理页面](docs/showcase/knowledge-base.png) | ![效果评测页面](docs/showcase/evaluation-dashboard.png) |
+| 上传、启停、删除资料并重建本地索引 | 展示生成成功率、来源覆盖率、要点召回率和引用有效率 |
+
+### 操作演示
+
+[▶ 查看 GeoRAG 完整操作录屏](https://github.com/zyl18190181910/GeoRAG/releases/download/showcase-v1/georag-demo.mp4)
+
+录屏展示智能问答、资料库管理和效果评测页面的实际运行效果。视频作为 GitHub Release 附件发布，避免把大体积二进制文件写入 Git 历史。
+
 系统支持：
 
 - 导入 TXT、Markdown 和 PDF 地学资料
