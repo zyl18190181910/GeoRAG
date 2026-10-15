@@ -1,0 +1,4 @@
+{"question":"请归纳岩石图像识别从数据划分、指标选择、拒识到回归评测的完整质量保障流程。","answer_mode":"summary","expected_sources":["岩石图像识别评测指南"],"required_points":["训练集","Macro-F1","低置信度","回归评测"]}
+{"question":"请用表格比较岩石图像识别与重力异常反演在数据划分、结果验证和异常排查方面的共同要求。","answer_mode":"summary","expected_sources":["岩石图像识别评测指南","重力异常反演基础"],"required_points":["训练集","测试集","验证","异常"]}
+{"question":"请把知识库问答系统需要覆盖的测试内容整理为一份可执行检查清单。","answer_mode":"summary","expected_sources":["知识库问答测试规范"],"required_points":["资料导入","接口测试","Source Hit@K","拒答","性能测试"]}
+{"question":"基于三份资料，分析一个可靠的技术系统在数据、验证、异常处理和版本记录方面有哪些共同原则。","answer_mode":"analysis","expected_sources":["岩石图像识别评测指南","知识库问答测试规范","重力异常反演基础"],"required_points":["数据","验证","异常","版本"]}

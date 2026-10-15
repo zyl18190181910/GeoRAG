@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "dataset": "60道中文公开论文中英双语检索集",
+  "cases": 60,
+  "documents": 4,
+  "chunks": 317,
+  "controlled_variables": [
+    "same_documents",
+    "same_questions",
+    "same_chunking",
+    "same_tfidf_weights",
+    "same_cross_encoder"
+  ],
+  "models": [
+    {
+      "embedding_model": "BAAI/bge-small-zh-v1.5",
+      "hybrid_hit_at_1": 0.35,
+      "hybrid_hit_at_3": 0.5,
+      "hybrid_mrr": 0.4083,
+      "reranked_hit_at_1": 0.4333,
+      "reranked_hit_at_3": 0.6333,
+      "reranked_mrr": 0.5222,
+      "reranked_mean_latency_ms": 4327.948
+    },
+    {
+      "embedding_model": "BAAI/bge-m3",
+      "hybrid_hit_at_1": 0.3833,
+      "hybrid_hit_at_3": 0.5833,
+      "hybrid_mrr": 0.4694,
+      "reranked_hit_at_1": 0.4833,
+      "reranked_hit_at_3": 0.75,
+      "reranked_mrr": 0.5944,
+      "reranked_mean_latency_ms": 4806.359
+    }
+  ],
+  "bge_m3_improvement_points": {
+    "reranked_hit_at_1": 5.0,
+    "reranked_hit_at_3": 11.7,
+    "reranked_mrr": 7.2
+  }
+}

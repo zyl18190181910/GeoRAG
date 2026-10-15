@@ -1,0 +1,30 @@
+[
+  {
+    "filename": "01_深度自编码网络地壳厚度反演.pdf",
+    "url": "https://www.dzxb.org/cn/article/pdf/preview/10.11939/jass.20200043.pdf",
+    "title": "基于深度降噪自编码神经网络的中国大陆地壳厚度反演",
+    "publisher": "地震学报",
+    "license_note": "期刊官网公开获取；PDF 仅由下载脚本保存到本地，不随代码仓库分发"
+  },
+  {
+    "filename": "02_Transformer大地电磁反演成像.pdf",
+    "url": "https://cjournal.hep.com.cn/1001-1749/CN/PDF/1159911936243720475",
+    "title": "Transformer网络在大地电磁反演成像中的应用",
+    "publisher": "物探化探计算技术",
+    "license_note": "期刊官网公开获取；PDF 仅由下载脚本保存到本地，不随代码仓库分发"
+  },
+  {
+    "filename": "03_余弦退火与空洞卷积遥感语义分割.pdf",
+    "url": "https://www.ygxb.ac.cn/rc-pub/front/front-article/download/19406829/lowqualitypdf/%E8%9E%8D%E5%90%88%E4%BD%99%E5%BC%A6%E9%80%80%E7%81%AB%E4%B8%8E%E7%A9%BA%E6%B4%9E%E5%8D%B7%E7%A7%AF%E7%9A%84%E9%81%A5%E6%84%9F%E5%BD%B1%E5%83%8F%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2.pdf",
+    "title": "融合余弦退火与空洞卷积的遥感影像语义分割",
+    "publisher": "遥感学报",
+    "license_note": "期刊官网公开获取；PDF 仅由下载脚本保存到本地，不随代码仓库分发"
+  },
+  {
+    "filename": "04_地学知识图谱引导遥感语义分割.pdf",
+    "url": "https://www.ygxb.ac.cn/rc-pub/front/front-article/download/44088784/lowqualitypdf/Geographic%20knowledge%20graph-guided%20remote%20sensing%20image%20semantic%20segmentation.pdf",
+    "title": "地学知识图谱引导的遥感影像语义分割",
+    "publisher": "遥感学报",
+    "license_note": "期刊官网公开获取；PDF 仅由下载脚本保存到本地，不随代码仓库分发"
+  }
+]

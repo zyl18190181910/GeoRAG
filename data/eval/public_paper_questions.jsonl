@@ -1,0 +1,60 @@
+{"question":"这项研究利用哪两类瑞雷面波速度信息反演地壳厚度？","expected_source":"01_深度自编码网络地壳厚度反演","evidence_terms":["瑞雷面波群速度","相速度频散特性"]}
+{"question":"论文建立了面波频散与哪个地下结构参数之间的关系？","expected_source":"01_深度自编码网络地壳厚度反演","evidence_terms":["地壳厚度的正反演函数关系"]}
+{"question":"自编码网络里的解码过程对应地球物理中的什么过程？","expected_source":"01_深度自编码网络地壳厚度反演","evidence_terms":["解码过程对应正演过程"]}
+{"question":"该网络的编码部分在物理意义上对应什么？","expected_source":"01_深度自编码网络地壳厚度反演","evidence_terms":["编码过程对应反演过程"]}
+{"question":"作者如何让模型适应含噪声的观测频散数据？","expected_source":"01_深度自编码网络地壳厚度反演","evidence_terms":["对训练样本加噪声"]}
+{"question":"降噪解码器希望恢复出什么样的输入？","expected_source":"01_深度自编码网络地壳厚度反演","evidence_terms":["无噪声输入"]}
+{"question":"评价神经网络时除了预测结果还考虑了哪两类误差？","expected_source":"01_深度自编码网络地壳厚度反演","evidence_terms":["测试误差","训练误差"]}
+{"question":"论文怎样利用物理规律验证网络预测？","expected_source":"01_深度自编码网络地壳厚度反演","evidence_terms":["已知物理原理的正演结果"]}
+{"question":"研究认为面波频散和地壳厚度之间是什么关系？","expected_source":"01_深度自编码网络地壳厚度反演","evidence_terms":["非线性关系"]}
+{"question":"最终反演的区域范围是什么？","expected_source":"01_深度自编码网络地壳厚度反演","evidence_terms":["中国大陆的地壳厚度"]}
+{"question":"这篇论文使用的核心网络类型是什么？","expected_source":"01_深度自编码网络地壳厚度反演","evidence_terms":["深度降噪自编码网络"]}
+{"question":"Why was noise added to the training samples?","expected_source":"01_深度自编码网络地壳厚度反演","evidence_terms":["对观测数据降噪"]}
+{"question":"What two dispersion measurements are mapped to crustal thickness?","expected_source":"01_深度自编码网络地壳厚度反演","evidence_terms":["群速度","相速度"]}
+{"question":"How does the autoencoder connect forward modeling and inversion?","expected_source":"01_深度自编码网络地壳厚度反演","evidence_terms":["正反演问题"]}
+{"question":"论文如何判断该地壳厚度反演方法是否可信？","expected_source":"01_深度自编码网络地壳厚度反演","evidence_terms":["吻合度较高","可行的和可信的方法"]}
+{"question":"传统大地电磁反演为什么计算量较大？","expected_source":"02_Transformer大地电磁反演成像","evidence_terms":["计算雅可比矩阵"]}
+{"question":"传统迭代反演依赖哪些人为输入或参数？","expected_source":"02_Transformer大地电磁反演成像","evidence_terms":["初始模型","正则化因子"]}
+{"question":"训练后的Transformer完成反演成像需要多长时间？","expected_source":"02_Transformer大地电磁反演成像","evidence_terms":["仅需几毫秒"]}
+{"question":"论文用多少组正演数据训练Transformer？","expected_source":"02_Transformer大地电磁反演成像","evidence_terms":["样本９２４０个","９２４０组正演数据"]}
+{"question":"实测验证采用了哪个地区的公开大地电磁数据？","expected_source":"02_Transformer大地电磁反演成像","evidence_terms":["南非开源大地电磁数据"]}
+{"question":"网络把哪种观测图像转换成电性模型？","expected_source":"02_Transformer大地电磁反演成像","evidence_terms":["视电阻率图像到电阻率模型"]}
+{"question":"Transformer反演结果可以识别异常体的哪些特征？","expected_source":"02_Transformer大地电磁反演成像","evidence_terms":["异常体位置和大小"]}
+{"question":"网络通过什么计算方式提高训练效率？","expected_source":"02_Transformer大地电磁反演成像","evidence_terms":["矩阵并行化运算"]}
+{"question":"Transformer用于提取多种信息的核心结构是什么？","expected_source":"02_Transformer大地电磁反演成像","evidence_terms":["多头注意力机制"]}
+{"question":"位置编码保存了输入向量的哪些位置信息？","expected_source":"02_Transformer大地电磁反演成像","evidence_terms":["相对位置和绝对位置"]}
+{"question":"论文的地质模型通过什么数值方法产生响应数据？","expected_source":"02_Transformer大地电磁反演成像","evidence_terms":["有限元正演"]}
+{"question":"How many shallow and deep anomalous-body models were generated?","expected_source":"02_Transformer大地电磁反演成像","evidence_terms":["浅部异常体模型５４００个","深部异常体模型３８４０个"]}
+{"question":"What does the Transformer map apparent-resistivity images into?","expected_source":"02_Transformer大地电磁反演成像","evidence_terms":["电阻率模型"]}
+{"question":"Why is positional encoding introduced into the network?","expected_source":"02_Transformer大地电磁反演成像","evidence_terms":["位置关系","位置编码"]}
+{"question":"大地电磁测深常用于哪些地学任务？","expected_source":"02_Transformer大地电磁反演成像","evidence_terms":["矿产普查","区域构造研究","深部地球动力学"]}
+{"question":"该遥感分割方法主要面向什么类型的影像？","expected_source":"03_余弦退火与空洞卷积遥感语义分割","evidence_terms":["高分辨率遥感影像"]}
+{"question":"论文用什么卷积结构获取不同尺度的地物信息？","expected_source":"03_余弦退火与空洞卷积遥感语义分割","evidence_terms":["多尺度并行空洞卷积"]}
+{"question":"空洞卷积扩大感受信息范围时是否增加参数？","expected_source":"03_余弦退火与空洞卷积遥感语义分割","evidence_terms":["在不增加参数的情况下"]}
+{"question":"研究使用什么模型引入空间和边缘上下文？","expected_source":"03_余弦退火与空洞卷积遥感语义分割","evidence_terms":["全连接条件随机场"]}
+{"question":"条件随机场主要改善了哪方面的分割效果？","expected_source":"03_余弦退火与空洞卷积遥感语义分割","evidence_terms":["细节分割能力"]}
+{"question":"论文通过什么训练策略动态调整学习率？","expected_source":"03_余弦退火与空洞卷积遥感语义分割","evidence_terms":["周期递增的余弦退火策略"]}
+{"question":"余弦退火为什么需要获得多个局部解？","expected_source":"03_余弦退火与空洞卷积遥感语义分割","evidence_terms":["集成局部最优解"]}
+{"question":"遥感分割实验使用了哪个数据集？","expected_source":"03_余弦退火与空洞卷积遥感语义分割","evidence_terms":["Gaofen Image Dataset"]}
+{"question":"多尺度空洞卷积对复杂地物有什么作用？","expected_source":"03_余弦退火与空洞卷积遥感语义分割","evidence_terms":["有效辨识复杂对象"]}
+{"question":"空间和边缘上下文怎样影响目标边界？","expected_source":"03_余弦退火与空洞卷积遥感语义分割","evidence_terms":["边界辨识更精准"]}
+{"question":"周期递增余弦退火对模型运行效率有什么影响？","expected_source":"03_余弦退火与空洞卷积遥感语义分割","evidence_terms":["减少集成模型的推理时间"]}
+{"question":"论文用哪些总体指标与主流分割模型进行比较？","expected_source":"03_余弦退火与空洞卷积遥感语义分割","evidence_terms":["总体精度与 Kappa 系数"]}
+{"question":"What module captures multi-scale ground-object information?","expected_source":"03_余弦退火与空洞卷积遥感语义分割","evidence_terms":["多尺度地物信息"]}
+{"question":"How is spatial and boundary context introduced into segmentation?","expected_source":"03_余弦退火与空洞卷积遥感语义分割","evidence_terms":["空间和边缘的上下文信息"]}
+{"question":"What is the purpose of combining several local optima?","expected_source":"03_余弦退火与空洞卷积遥感语义分割","evidence_terms":["像素上的分类能力"]}
+{"question":"普通像素级语义分割存在哪两方面的不足？","expected_source":"04_地学知识图谱引导遥感语义分割","evidence_terms":["缺乏整体性目标线索挖掘","结构化数据和非结构化知识"]}
+{"question":"论文从知识图谱中抽取了哪两类信息？","expected_source":"04_地学知识图谱引导遥感语义分割","evidence_terms":["地物目标语义信息","地学先验知识"]}
+{"question":"该方法构建了哪两种知识引导约束？","expected_source":"04_地学知识图谱引导遥感语义分割","evidence_terms":["实体级连通约束","实体间共生约束"]}
+{"question":"实体级连通约束以什么作为损失计算单元？","expected_source":"04_地学知识图谱引导遥感语义分割","evidence_terms":["连通域实体而非像素单元"]}
+{"question":"连通约束能够缓解哪些分割现象？","expected_source":"04_地学知识图谱引导遥感语义分割","evidence_terms":["边界模糊和随机噪声现象"]}
+{"question":"实体间共生约束如何量化空间知识？","expected_source":"04_地学知识图谱引导遥感语义分割","evidence_terms":["共生条件概率"]}
+{"question":"共生约束最终优化的是地物实体的什么？","expected_source":"04_地学知识图谱引导遥感语义分割","evidence_terms":["地物实体的空间分布"]}
+{"question":"地学知识图谱的骨架是什么？","expected_source":"04_地学知识图谱引导遥感语义分割","evidence_terms":["地学本体是地学知识图谱的骨架"]}
+{"question":"地学知识图谱适合表达哪些实体信息？","expected_source":"04_地学知识图谱引导遥感语义分割","evidence_terms":["属性以及目标之间的关系"]}
+{"question":"传统深度分割结果为什么会缺少整体性？","expected_source":"04_地学知识图谱引导遥感语义分割","evidence_terms":["缺乏实体级别的学习"]}
+{"question":"论文中的先验知识提取模块如何构建图谱？","expected_source":"04_地学知识图谱引导遥感语义分割","evidence_terms":["利用地学本体定义抽象类和属性关系"]}
+{"question":"常规像素约束之外，损失约束模块还包含什么？","expected_source":"04_地学知识图谱引导遥感语义分割","evidence_terms":["像素级稠密约束","实体级连通约束","实体间共生约束"]}
+{"question":"How does the method suppress blurry boundaries and random noise?","expected_source":"04_地学知识图谱引导遥感语义分割","evidence_terms":["实体级连通约束"]}
+{"question":"What prior knowledge is used to optimize spatial entity distribution?","expected_source":"04_地学知识图谱引导遥感语义分割","evidence_terms":["空间共生知识"]}
+{"question":"Why can a geoscience knowledge graph improve interpretability?","expected_source":"04_地学知识图谱引导遥感语义分割","evidence_terms":["符号化的地学先验知识和语义信息"]}

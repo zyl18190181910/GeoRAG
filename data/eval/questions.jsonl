@@ -1,0 +1,32 @@
+{"question":"为什么同一张原图裁出的图块不能同时出现在训练集和测试集？","expected_sources":["岩石图像识别评测指南"],"should_refuse":false}
+{"question":"Top-3 指标表示什么？","expected_sources":["岩石图像识别评测指南"],"should_refuse":false}
+{"question":"Macro-F1 更适合观察什么问题？","expected_sources":["岩石图像识别评测指南"],"should_refuse":false}
+{"question":"混淆矩阵可以帮助定位哪些问题？","expected_sources":["岩石图像识别评测指南"],"should_refuse":false}
+{"question":"低置信度拒识阈值应该在哪里选择？","expected_sources":["岩石图像识别评测指南"],"should_refuse":false}
+{"question":"遇到未知岩性类别时是否应该强制分类？","expected_sources":["岩石图像识别评测指南"],"should_refuse":false}
+{"question":"为什么数据增强只能应用于训练集？","expected_sources":["岩石图像识别评测指南"],"should_refuse":false}
+{"question":"异常样本记录需要保存哪些内容？","expected_sources":["岩石图像识别评测指南"],"should_refuse":false}
+{"question":"模型升级后的回归评测需要比较什么？","expected_sources":["岩石图像识别评测指南"],"should_refuse":false}
+{"question":"类别不均衡时除了总体准确率还要看什么？","expected_sources":["岩石图像识别评测指南"],"should_refuse":false}
+{"question":"重力异常反演为什么具有非唯一性？","expected_sources":["重力异常反演基础"],"should_refuse":false}
+{"question":"怎样验证重力反演结果是否符合物理规律？","expected_sources":["重力异常反演基础"],"should_refuse":false}
+{"question":"参数误差较小但再正演误差很大说明什么？","expected_sources":["重力异常反演基础"],"should_refuse":false}
+{"question":"数值模拟为什么必须统一坐标系和单位？","expected_sources":["重力异常反演基础"],"should_refuse":false}
+{"question":"怎样检查网格收敛性？","expected_sources":["重力异常反演基础"],"should_refuse":false}
+{"question":"反演数据集应该如何划分训练集和测试集？","expected_sources":["重力异常反演基础"],"should_refuse":false}
+{"question":"OpenMP 并行后需要怎样验证计算结果？","expected_sources":["重力异常反演基础"],"should_refuse":false}
+{"question":"并行结果随线程数变化时应该检查什么？","expected_sources":["重力异常反演基础"],"should_refuse":false}
+{"question":"知识库问答接口要覆盖哪些异常场景？","expected_sources":["知识库问答测试规范"],"should_refuse":false}
+{"question":"接口契约测试要检查哪些内容？","expected_sources":["知识库问答测试规范"],"should_refuse":false}
+{"question":"怎样判断回答中的引用是否有效？","expected_sources":["知识库问答测试规范"],"should_refuse":false}
+{"question":"为什么评测集要分成调优集和测试集？","expected_sources":["知识库问答测试规范"],"should_refuse":false}
+{"question":"Source Hit@K 衡量什么？","expected_sources":["知识库问答测试规范"],"should_refuse":false}
+{"question":"为什么拒答评测既要有可回答问题也要有不可回答问题？","expected_sources":["知识库问答测试规范"],"should_refuse":false}
+{"question":"性能测试至少需要记录哪些延迟指标？","expected_sources":["知识库问答测试规范"],"should_refuse":false}
+{"question":"一条完整缺陷记录应包含哪些字段？","expected_sources":["知识库问答测试规范"],"should_refuse":false}
+{"question":"缺陷修复后为什么还要执行回归测试？","expected_sources":["知识库问答测试规范"],"should_refuse":false}
+{"question":"评测结果为了复现需要保存哪些版本信息？","expected_sources":["知识库问答测试规范"],"should_refuse":false}
+{"question":"月球背面最新天气怎么样？","expected_sources":[],"should_refuse":true}
+{"question":"今天哪只股票会涨停？","expected_sources":[],"should_refuse":true}
+{"question":"红烧肉应该放多少糖？","expected_sources":[],"should_refuse":true}
+{"question":"昨晚足球比赛比分是多少？","expected_sources":[],"should_refuse":true}
