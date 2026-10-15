@@ -132,10 +132,6 @@ python scripts\evaluate_ablation.py
 
 回答器通过 `AnswerGenerator` 接口与检索逻辑解耦。目前接入 DeepSeek 的 OpenAI 兼容接口；没有 API Key 或远端调用失败时，自动使用确定性的抽取式回答，检索、引用、拒答和评测模块无需重写。
 
-## 简历使用原则
-
-只有实际完成并能演示的功能才能写入简历。测试数量、问题数量、缺陷数量和性能数据应以真实运行结果为准，不要沿用计划数字。
-
 ## License
 
 MIT
